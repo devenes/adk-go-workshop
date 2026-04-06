@@ -1,0 +1,79 @@
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+__debug_bin
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+/bin/
+/dist/
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+.vscode/launch.json
+.vscode/settings.json
+
+# Local environment
+.pytest_cache/
+
+# ADK Web local data (e.g. demos/calculator_basics/.adk/session.db)
+**/.adk/
+
+# Python (legacy)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments (anywhere)
+.venv/
+venv/
+ENV/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+**/notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+17-parallel_research_synth
+16-loop_plan_refine
+15-structured_persona_research
+14-hitl_sensitive_action
+13-structured_output
+12-agent_as_tool_orchestrator
+11-multi_agent_coordinator
+10-agent_config
+09-live_weather_nws
+08-sequential_state_shared
+07-sequential_pipeline
+06-session_memory
+05-day_trip_search
+04-static_kb_rag
+03-custom_tools
+02-calculator_basics
+01-hello_web
+check_api_key_leaks
+/adk-go
+CONVERSION_SUMMARY.md
