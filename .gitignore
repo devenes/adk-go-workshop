@@ -57,4 +57,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-/adk-go

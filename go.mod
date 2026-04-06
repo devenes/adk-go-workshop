@@ -3,7 +3,7 @@ module github.com/google-adk-workshop
 go 1.25.0
 
 require (
-	google.golang.org/adk v0.0.0
+	google.golang.org/adk v1.0.0
 	google.golang.org/genai v1.40.0
 )
 
@@ -56,5 +56,3 @@ require (
 	rsc.io/omap v1.2.0 // indirect
 	rsc.io/ordered v1.1.1 // indirect
 )
-
-replace google.golang.org/adk => ./adk-go
