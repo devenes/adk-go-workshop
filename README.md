@@ -2,9 +2,9 @@
   <img src="scripts/adk-image.jpg" alt="Google Agent Development Kit — logo with a robot, tools, data, code, and server icons"/>
 </div>
 
-# Google ADK Workshop — Go Edition
+# Google ADK Workshop
 
-Hands-on materials for learning the [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/) in **Go**. This is a complete rewrite of the original Python workshop, now built entirely with the **Go ADK library** (`google.golang.org/adk`).
+Hands-on materials for learning the [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/) in **Go**.
 
 **What's included:**
 
@@ -15,8 +15,6 @@ Hands-on materials for learning the [Google Agent Development Kit (ADK)](https:/
 - ✅ Security scanning (API key leak detection)
 - ✅ Docker-ready HTTP server
 - ✅ Full test suite (smoke tests + CI/CD)
-
-**Original Python materials:** See [`ADK_Learning_tools.ipynb`](ADK_Learning_tools.ipynb) and [`notebooks/ADK_Learning_tools_venv.ipynb`](notebooks/ADK_Learning_tools_venv.ipynb) for the predecessor version.
 
 **Official companion course:** [ADK Crash Course — From Beginner to Expert](https://codelabs.developers.google.com/onramp/instructions#0) (Google Codelabs).
 

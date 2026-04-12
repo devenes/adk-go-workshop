@@ -1,17 +1,3 @@
-// Copyright 2025 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 // Package demonstrates live HTTP calls to the National Weather Service API.
 package main
 
@@ -45,10 +31,10 @@ type ForecastOutput struct {
 }
 
 var cityCoords = map[string]struct{ lat, lon string }{
-	"New York": {"40.7128", "-74.0060"},
+	"New York":    {"40.7128", "-74.0060"},
 	"Los Angeles": {"34.0522", "-118.2437"},
-	"Chicago": {"41.8781", "-87.6298"},
-	"Houston": {"29.7604", "-95.3698"},
+	"Chicago":     {"41.8781", "-87.6298"},
+	"Houston":     {"29.7604", "-95.3698"},
 }
 
 func getLiveForecast(ctx tool.Context, input CityInput) (ForecastOutput, error) {
